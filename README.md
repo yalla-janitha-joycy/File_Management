@@ -85,13 +85,3 @@ Each system call returns a value:
 
 ---
 
-## 5. Error Handling and Return Values
-
-System calls are *not guaranteed to succeed*. Always check the return value:
-
-```c
-int fd = open("file.txt", O_RDONLY);
-if (fd == -1) {
-    perror("open failed");
-    exit(EXIT_FAILURE);
-}
