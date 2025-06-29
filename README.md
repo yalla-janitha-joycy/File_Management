@@ -10,7 +10,6 @@ This repository contains a comprehensive set of C programs that demonstrate how 
 - [2. File Descriptors and File Abstraction in Linux](#2-file-descriptors-and-file-abstraction-in-linux)
 - [3. Why Use System Calls Instead of Standard I/O?](#3-why-use-system-calls-instead-of-standard-io)
 - [4. Common System Calls for File Operations](#4-common-system-calls-for-file-operations)
-- [5. Error Handling and Return Values](#5-error-handling-and-return-values)
 
 ---
 
