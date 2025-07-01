@@ -2,7 +2,7 @@
 
 ## Program Code
 
-'''c
+```c
 // Create new file and write "Hello, World!"
 
 #include <fcntl.h>
@@ -20,7 +20,7 @@ int main() {
     close(fd);
     return 0;
 }
-'''
+```
 
 
 
@@ -28,7 +28,7 @@ int main() {
 
 ## Program Code
 
-c
+```c
 //Open file and display contents
 
 #include <fcntl.h>
@@ -51,14 +51,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Create a directory "Test"
 
 ## Program Code
 
-c
+```c
 // Create a directory "Test"
 
 #include <sys/stat.h>
@@ -73,14 +73,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Check if a file exists
 
 ## Program Code
 
-c
+```c
 //Check if a file exists
 
 #include <unistd.h>
@@ -97,13 +97,13 @@ int main() {
 }
 
 
-
+```
 
 # Rename a file
 
 ##  Program Code
 
-c
+```c
 //Rename a file
 
 #include <stdio.h>
@@ -117,14 +117,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Delete a file
 
 ##  Program Code
 
-c
+```c
 //Delete a file
 
 #include <unistd.h>
@@ -138,15 +138,13 @@ int main() {
 
     return 0;
 }
-
-
-
+```
 
 # Copy contents from one file to another
 
 ##  Program Code
 
-c
+```c
 // Copy contents from one file to another
 
 #include <fcntl.h>
@@ -177,14 +175,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Move file to another directory
 
 ##  Program Code
 
-c
+```c
 // Move file to another directory
 
 #include <stdio.h>
@@ -198,14 +196,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # List all files in current directory
 
 ##  Program Code
 
-c
+```c
 // List all files in current directory
 
 #include <dirent.h>
@@ -230,14 +228,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Get size of file.txt
 
 ##  Program Code
 
-c
+```c
 // Get size of file.txt
 
 #include <sys/stat.h>
@@ -253,7 +251,7 @@ int main() {
     printf("Size: %ld bytes\n", st.st_size);
     return 0;
 }
-
+```
 
 
 
@@ -261,7 +259,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Check if a directory named "Test" exists
 
 #include <stdio.h>
@@ -282,7 +280,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 
 
@@ -290,7 +288,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Create "Backup" directory in the parent directory
 
 #include <stdio.h>
@@ -305,7 +303,7 @@ int main() {
     printf("Directory '../Backup' created.\n");
     return 0;
 }
-
+```
 
 
 
@@ -313,7 +311,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Recursively list all files/directories in a given directory
 
 #include <stdio.h>
@@ -354,14 +352,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Delete all files in directory "Temp"
 
 ##  Program Code
 
-c
+```c
 // Delete all files in directory "Temp"
 
 #include <stdio.h>
@@ -395,14 +393,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Count the number of lines in a file named "file.txt"
 
 ##  Program Code
 
-c
+```c
 //  Count the number of lines in a file named "file.txt"
 
 #include <fcntl.h>
@@ -430,7 +428,7 @@ int main() {
     printf("Line count: %d\n", count);
     return 0;
 }
-
+```
 
 
 
@@ -439,7 +437,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 //C program to append "Goodbye!" to the end of an existing file named "file.txt"
 
 #include <fcntl.h>
@@ -454,7 +452,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # C program to change the permissions of a file named "file.txt" to read-only.
@@ -462,7 +460,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 //C program to change the permissions of a file named "file.txt" to read-only.
 
 #include <sys/stat.h>
@@ -471,7 +469,7 @@ int main() {
     chmod("file.txt", 0444);
     return 0;
 }
-
+```
 
 
 
@@ -479,7 +477,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // C program to change the ownership of a file named "file.txt" to the user "Joycy"
 
 #include <stdio.h>
@@ -511,7 +509,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # C program to get the last modified timestamp of a file named "file.txt
@@ -519,7 +517,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // C program to get the last modified timestamp of a file named "file.txt
 
 #include <sys/stat.h>
@@ -532,7 +530,7 @@ int main() {
     printf("Last modified: %s", ctime(&st.st_mtime));
     return 0;
 }
-
+```
 
 
 
@@ -540,7 +538,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // a C program to create a temporary file and write some data to it
 
 #include <stdio.h>
@@ -560,14 +558,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # check if a given path refers to a file or a directory
 
 ##  Program Code
 
-c
+```c
 //C program to check if a given path refers to a file or a directory
 
 #include <sys/stat.h>
@@ -592,7 +590,7 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-
+```
 
 
 # create a hard link named "hardlink.txt" to a file named "source.txt"
@@ -600,7 +598,7 @@ int main(int argc, char *argv[]) {
 
 ##  Program Code
 
-c
+```c
 // a C program to create a hard link named "hardlink.txt" to a file named "source.txt"
 
 #include <stdio.h>
@@ -618,7 +616,7 @@ int main() {
     printf("Hard link created successfully: %s → %s\n", hard_link, existing_file);
     return 0;
 }
-
+```
 
 
 
@@ -627,7 +625,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 /*program to read and display the contents of a CSV file named
 "data.csv"*/
 
@@ -667,7 +665,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # get the absolute path of the current working directory
@@ -675,7 +673,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // C program to get the absolute path of the current working directory
 
 #include <stdio.h>
@@ -692,7 +690,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # get the size of a directory named "file_op"
@@ -700,7 +698,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // C program to get the size of a directory named "file_op"
 
 /*
@@ -775,7 +773,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # recursively copy all files and directories from one directory to another
@@ -783,7 +781,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // C program to recursively copy all files and directories from one directory to another 
 
 #include <stdio.h>
@@ -857,7 +855,7 @@ int main() {
     printf("Directory copied successfully.\n");
     return 0;
 }
-
+```
 
 
 
@@ -866,7 +864,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // program to get the number of files in a directory named "images"
 
 #include <stdio.h>
@@ -897,7 +895,7 @@ int main() {
     printf("Number of regular files in 'images': %d\n", count);
     return 0;
 }
-
+```
 
 
 
@@ -906,7 +904,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Create a FIFO named "myfifo" in current directory
 
 #include <stdio.h>
@@ -923,7 +921,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # f29.c – C Program
@@ -931,7 +929,7 @@ int main() {
 
 ##  Read data from FIFO "myfifo"
 
-c
+```c
 //Read data from FIFO "myfifo"
 
 #include <stdio.h>
@@ -955,7 +953,7 @@ int main() {
     close(fd);
     return 0;
 }
-
+```
 
 
 
@@ -963,7 +961,7 @@ int main() {
 
 
 ##  Truncate "file.txt" to a specific length (e.g., 50 bytes)
-c
+```c
 // Truncate "file.txt" to a specific length (e.g., 50 bytes)
 
 #include <stdio.h>
@@ -979,7 +977,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 
@@ -987,7 +985,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // program to search for a specific string in a file named "data.txt" and display the line number(s) where it occurs
 
 #include <stdio.h>
@@ -1015,14 +1013,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 
 # get the file type (regular file, directory, symbolic link, etc.) of a given path
 ##  Program Code
 
-c
+```c
 // program to get the file type (regular file, directory, symbolic link, etc.) of a given path
 #include <unistd.h>
 #include <stdio.h>
@@ -1081,12 +1079,12 @@ int main() {
 }
 */
 
-
+```
 
 # Create a New Empty File named "empty.txt"
 ##  Program Code
 
-c
+```c
 // Create a New Empty File named "empty.txt"
 
 #include <fcntl.h>
@@ -1104,14 +1102,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Get the Permissions (mode) of a File
 
 ##  Program Code
 
-c
+```c
 // Get the Permissions (mode) of a File
 
 #include <sys/stat.h>
@@ -1127,7 +1125,7 @@ int main() {
     printf("Permissions: 0%o\n", st.st_mode & 0777);
     return 0;
 }
-
+```
 
 
 
@@ -1135,7 +1133,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Recursively Delete a Directory and Its Contents
 
 #include <stdio.h>
@@ -1175,7 +1173,7 @@ int main() {
     printf("Temp directory deleted.\n");
     return 0;
 }
-
+```
 
 
 
@@ -1183,7 +1181,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Read and Display First 10 Lines of "log.txt"
 /*
 #include <stdio.h>
@@ -1225,13 +1223,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Copy "input.txt" to "output.txt" in Reverse Order (Line-wise)
 ##  Program Code
 
-c
+```c
 //Copy "input.txt" to "output.txt" in Reverse Order (Line-wise)
 
 #include <stdio.h>
@@ -1277,14 +1275,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Create a directory with today's date "YYYY-MM-DD"
 
 ##  Program Code
 
-c
+```c
 //Create a directory with today's date "YYYY-MM-DD"
 
 #include <time.h>
@@ -1304,14 +1302,14 @@ int main() {
     printf("directory is created with today's date\n");
     return 0;
 }
-
+```
 
 
 
 # Read and display binary file "binary.bin"
 ##  Program Code
 
-c
+```c
 //  Read and display binary file "binary.bin"
 
 #include <fcntl.h>
@@ -1330,7 +1328,7 @@ int main() {
     close(fd);
     return 0;
 }
-
+```
 
 
 
@@ -1338,7 +1336,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Get size of the largest file in current directory
 
 #include <dirent.h>
@@ -1368,13 +1366,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Check if "data.txt" is readable
 ##  Program Code
 
-c
+```c
 //  Check if "data.txt" is readable
 
 #include <unistd.h>
@@ -1387,13 +1385,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Create "Logs" directory and move all .log files into it
 ##  Program Code
 
-c
+```c
 //Create "Logs" directory and move all .log files into it
 
 
@@ -1420,13 +1418,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Check if "config.ini" is writable
 ##  Program Code
 
-c
+```c
 //  Check if "config.ini" is writable
 
 #include <unistd.h>
@@ -1438,14 +1436,14 @@ int main() {
         write(1, "Not Writable\n", 13);
     return 0;
 }
-
+```
 
 
 
 # Read "instructions.txt" and execute commands
 ##  Program Code
 
-c
+```c
 //Read "instructions.txt" and execute commands
 
 #include <fcntl.h>
@@ -1522,12 +1520,12 @@ int main() {
 }
 */
 
-
+```
 
 # Get number of hard links to "file.txt"
 ##  Program Code
 
-c
+```c
 // Get number of hard links to "file.txt"
 
 #include <sys/stat.h>
@@ -1543,14 +1541,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Copy contents of all .txt files in a directory into "combined.txt"
 
 ##  Program Code
 
-c
+```c
 //Copy contents of all .txt files in a directory into "combined.txt"
 
 #include <dirent.h>
@@ -1578,14 +1576,14 @@ int main() {
     closedir(dir);
     return 0;
 }
-
+```
 
 
 
 # Recursively calculate total size of all files in a directory and subdirectories
 ##  Program Code
 
-c
+```c
 // Recursively calculate total size of all files in a directory and subdirectories
 
 #include <stdio.h>
@@ -1620,7 +1618,7 @@ int main() {
     printf("Total size: %ld bytes\n", get_dir_size("."));
     return 0;
 }
-
+```
 
 
 
@@ -1628,7 +1626,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Get number of bytes in "data.bin"
 
 #include <sys/stat.h>
@@ -1642,14 +1640,14 @@ int main() {
         perror("stat");
     return 0;
 }
-
+```
 
 
 
 # Create directory with current timestamp (YYYY-MM-DD-HH-MM-SS):
 ##  Program Code
 
-c
+```c
 //Create directory with current timestamp (YYYY-MM-DD-HH-MM-SS):
 
 #include <time.h>
@@ -1667,14 +1665,14 @@ int main() {
         perror("mkdir");
     return 0;
 }
-
+```
 
 
 
 #  Create directory named "Documents"
 ##  Program Code
 
-c
+```c
 // Create directory named "Documents"
 
 
@@ -1689,13 +1687,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Check if "file.txt" exists in current directory
 ##  Program Code
 
-c
+```c
 // Check if "file.txt" exists in current directory
 
 #include <unistd.h>
@@ -1709,13 +1707,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Open "data.txt" and display its contents
 ##  Program Code
 
-c
+```c
 // Open "data.txt" and display its contents
 
 #include <fcntl.h>
@@ -1733,14 +1731,14 @@ int main() {
     close(fd);
     return 0;
 }
-
+```
 
 
 
 # Create "output.txt" and write "Hello, World!"
 ##  Program Code
 
-c
+```c
 // Create "output.txt" and write "Hello, World!"
 
 #include <fcntl.h>
@@ -1754,14 +1752,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 
 # Delete "delete_me.txt" from current directory
 ##  Program Code
 
-c
+```c
 //  Delete "delete_me.txt" from current directory:
 
 #include <unistd.h>
@@ -1774,7 +1772,7 @@ int main() {
         perror("unlink");
     return 0;
 }
-
+```
 
 
 
@@ -1783,7 +1781,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 // Rename "old_name.txt" to "new_name.txt"
 
 #include <stdio.h>
@@ -1796,13 +1794,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Copy contents of one file to another
 ##  Program Code
 
-c
+```c
 // Copy contents of one file to another:
 
 #include <fcntl.h>
@@ -1823,13 +1821,13 @@ int main() {
     close(out);
     return 0;
 }
-
+```
 
 
 # Count lines in log.txt
 ##  Program Code
 
-c
+```c
 //Count lines in log.txt
 
 #include <fcntl.h>
@@ -1850,14 +1848,14 @@ int main() {
     printf("Lines: %d\n", count);
     return 0;
 }
-
+```
 
 
 
 # Create symbolic link
 ##  Program Code
 
-c
+```c
 // Create symbolic link
 
 #include <unistd.h>
@@ -1871,14 +1869,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Implement a C program to get the size of a file named "image.jpg"
 
 ##  Program Code
 
-c
+```c
 //Implement a C program to get the size of a file named "image.jpg"
 
 #include <sys/stat.h>
@@ -1892,7 +1890,7 @@ int main() {
         perror("stat");
     return 0;
 }
-
+```
 
 
 
@@ -1900,7 +1898,7 @@ int main() {
 # Create "notes.txt" and write multiple lines
 ##  Program Code
 
-c
+```c
 // Create "notes.txt" and write multiple lines
 
 #include <fcntl.h>
@@ -1923,13 +1921,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Count words in "notes.txt"
 ## Program Code
 
-c
+```c
 // Count words in "notes.txt"
 
 #include <fcntl.h>
@@ -1955,13 +1953,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 # Create symbolic link "shortcut.txt" to "target.txt"
 ##  Program Code
 
-c
+```c
 // Create symbolic link "shortcut.txt" to "target.txt"
 
 #include <unistd.h>
@@ -1969,14 +1967,14 @@ c
 int main() {
     return symlink("target.txt", "shortcut.txt");
 }
-
+```
 
 
 
 # Change "important.doc" permissions to read/write for owner only
 ##  Program Code
 
-c
+```c
 //Change "important.doc" permissions to read/write for owner only
 
 #include <sys/stat.h>
@@ -1984,7 +1982,7 @@ c
 int main() {
     return chmod("important.doc", S_IRUSR | S_IWUSR);
 }
-
+```
 
 
 
@@ -1993,7 +1991,7 @@ int main() {
 
 ##  Program Code
 
-c
+```c
 //Get last access time of "data.txt"
 
 #include <sys/stat.h>
@@ -2008,14 +2006,14 @@ int main() {
     return 0;
 }
 
-
+```
 
 
 #  Display binary file in hexadecimal
 
 ##  Program Code
 
-c
+```c
 //  Display binary file in hexadecimal
 
 #include <fcntl.h>
@@ -2064,4 +2062,4 @@ int main() {
     close(fd);
     return 0;
 }
-
+```
