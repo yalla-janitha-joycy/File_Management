@@ -2,7 +2,7 @@
 
 ## Program Code
 
-c
+'''c
 // Create new file and write "Hello, World!"
 
 #include <fcntl.h>
@@ -20,7 +20,7 @@ int main() {
     close(fd);
     return 0;
 }
-
+'''
 
 
 
